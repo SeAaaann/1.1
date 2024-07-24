@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #333;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header-image {
+    position: relative;
+    background: url('IMG_6405.jpg') no-repeat center center;
+    background-size: cover;
+    height: 300px;
+}
+
+.header-image .overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 0;
+    display: none;
+}
+
+.header-image:hover .overlay {
+    display: block;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+.intro {
+    margin: 20px 0;
+}
+
+.intro .avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.short-hr {
+    width: 500px;
+    border: 1px solid #000;
+    margin: 10px auto;
+}
+
+.project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.project-description {
+    max-width: 300px;
+    text-align: left;
+}
